@@ -1,0 +1,166 @@
+body {
+    background-color: #2a2a2a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos del header*/
+
+.flex-container-header {
+    display: flex;
+}
+
+.flex-container-header div {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.flex-container-header div a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 70px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: "Comfortaa-Regular.ttf", sans-serif;
+    box-sizing: border-box;
+}
+
+.flex-container-header div a:hover {
+    text-shadow: #d03b3b 10px 10px 10px;
+    transition: 0.5s ease;
+    color: #f1f1f1;
+    font-family: "Comfortaa-Bold.ttf", sans-serif;
+}
+
+.img-left {
+    margin-right: auto;
+    
+}
+
+img {
+    width: 500px;
+    padding-left: 25px;
+    margin-left: 30px;
+}
+
+.img-1{
+    box-shadow: black 10px 10px 10px 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+/*Estilos del main - colum-1*/
+
+.flex-container-main {
+    display: flex;
+}
+
+.column-1 {
+    width: 40%;
+    color: #f1f1f1;
+    margin-left: 200px;
+    border-right: 2px solid #d03b3b;
+    padding-right: 50px;
+}
+
+.column-1 div img {
+    width: 300px;
+}
+
+.column-1 div h2 {
+    font-family: "Comfortaa-Regular.ttf";
+    color: #d03b3b;
+    text-align: justify;
+}
+
+.column-1 div h3 {
+    color: #d03b3b;
+    font-family: "Comfortaa-Regular.ttf";
+    text-align: justify;
+}
+
+.column-1 div p {
+    font-family: "Comfortaa-Regular.ttf";
+    text-align: justify;
+}
+
+.column-1 div p a {
+    text-decoration: none ;
+    color: #f1f1f1;
+}
+
+.column-1 div p a:hover{
+    border-right: 2px solid #d03b3b;
+    padding-right: 15px;
+    transition: 0.5s ease;
+    border-left: 2px solid #d03b3b;
+    padding-left: 15px;
+}
+
+/*Estilos del main - colum-2*/
+
+.column-2 {
+    width: 30%;
+    padding-left: 50px;
+}
+
+.column-2 div h2 {
+    font-family: "Comfortaa-Regular.ttf";
+    color: #d03b3b;
+    text-align: justify;
+}
+
+.column-2 div h3 {
+    color: #d03b3b;
+    font-family: "Comfortaa-Regular.ttf";
+    text-align: justify;
+}
+
+.column-2 div p {
+    font-family: "Comfortaa-Regular.ttf";
+    text-align: justify;
+    color: #f1f1f1;
+}
+
+.flex-container-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container-img div img {
+    margin-top: 20px;
+    width: 80px;
+    height: auto;
+}
+
+/*Estilos del footer*/
+
+.flex-container-footer {
+    display: flex;
+    margin-top: 120px;
+    align-content: flex-end;
+    position: absolute;
+    padding-bottom: 30px;
+}
+
+.flex-container-footer div p {
+    color: #f1f1f1;
+    font-family: "Comfortaa-Regular.ttf", sans-serif;
+    margin-left: 70px;
+    margin-right: 1200px;
+}
+
+.flex-container-footer div a {
+    box-sizing: border-box;
+}
+
+.flex-container-footer div a img {
+    width: 40px;
+}
+
+.img-right {
+    margin-left: auto;
+    margin-right: 80px;
+}
+
