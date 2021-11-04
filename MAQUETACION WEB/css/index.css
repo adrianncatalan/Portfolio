@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Estilos general del body*/
+
+body {
+    background-image: url("../img/FondoHeader.jpg");
+    background-repeat: no-repeat round;
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: #2a2a2a;
+    width: 100vw;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilos del header*/
+
+.flex-container-header {
+    display: flex;
+}
+
+.flex-container-header div {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.flex-container-header div a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 70px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: "Comfortaa-Regular.ttf", sans-serif;
+    box-sizing: border-box;
+}
+
+.flex-container-header div a:hover {
+    transition: 0.5s ease;
+    text-shadow: #d03b3b 10px 10px 10px;
+    color: #f1f1f1;
+    font-family: "Comfortaa-Bold.ttf", sans-serif;
+}
+
+.img-left {
+    margin-right: auto;
+}
+
+img {
+    max-width: 500px;
+    padding-left: 25px;
+    margin-left: 30px;
+    height: auto;
+}
+
+/*Estilos del main (Otro nav que redirige al fichero proyectos*/
+
+.flex-container-main {
+    display: flex;
+    font-family: "White On Black.ttf", sans-serif;
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+
+.flex-container-main div a {
+    color: #f1f1f1;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.flex-container-main div a:hover {
+    text-shadow: #d03b3b 20px 20px 20px;
+    transition: 0.5s ease;
+    color: #f1f1f1;
+}
+
+/*Estilos del footer*/
+
+.flex-container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 200px;
+    align-content: space-between;
+    margin: 0px 50px 0 50px;
+    
+}
+
+.flex-container-footer div p{
+    color: white;
+    font-family: "Comfortaa-Bold.ttf", sans-serif; 
+}
+
+.img-right a img {
+    max-width: 5rem;
+    height: auto;
+}
+
+.support {
+    width: 100%;
+    height: 500px;
+}
+
+ /* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("../img/FondoHeader.jpg");
+        background-repeat: no-repeat round;
+        background-position: right top;
+        background-attachment: fixed;
+        background-color: #2a2a2a;
+        width: 100vw;
+        background-size: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up)  */
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url("../img/FondoHeader.jpg");
+        background-repeat: no-repeat round;
+        background-position: right top;
+        background-attachment: fixed;
+        background-color: #2a2a2a;
+        width: 100vw;
+        background-size: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 768px) {
+ 
+} 
+
+ /* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+ /* Extra large devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+    
+  } 
